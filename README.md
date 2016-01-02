@@ -5,7 +5,7 @@
 ### Summary:
 - [General guidelines](#general-guidelines)
 - [Usage of the var keyword](#usage-of-the-var-keyword)
-- [Use C# type keywords in favor of .NET type names](#use-c#-type-keywords-in-favor-of-.net-type-names)
+- [Use C# type keywords in favor of .NET type names](#use-c-type-keywords-in-favor-of-net-type-names)
 - [When to use internals vs public and when to use InternalsVisibleTo](#when-to-use-internals-vs-public-and-when-to-use-internalsvisibleto)
 - [Argument null checking](#argument-null-checking)
 - [Async method patterns](#async-method-patterns)
