@@ -13,7 +13,7 @@
 - [Doc comments](#doc-comments)
 - [Assertions](#assertions)
 - [Unit tests and functional tests](#unit-tests-and-functional-tests)
-- [Use only complete words or common-standard abbreviations in public APIs](#use-only-complete-words-or-common-standard-abbreviations-i-public-apis)
+- [Use only complete words or common-standard abbreviations in public APIs](#use-only-complete-words-or-common-standard-abbreviations-in-public-apis)
 
 #### General guidelines
 
