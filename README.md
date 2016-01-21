@@ -26,12 +26,14 @@ The most general guideline is that we use all the VS default settings in terms o
 
 #### Usage of the var keyword
 
-The `var` keyword is to be used as much as the compiler will allow. For example, these are correct:
+The `var` keyword can to be used as much as the compiler will allow, but it must be used when the type is not evident.
+For example, these are correct:
 
 ```c#
 var fruit = "Lychee";
 var fruits = new List<Fruit>();
 var flavor = fruit.GetFlavor();
+FruitFlavor flavor = fruit.GetFlavor(); // this is preferred because result of GetFlavor is not evident
 string fruit = null; // can't use "var" because the type isn't known (though you could do (string)null, don't!)
 const string expectedName = "name"; // can't use "var" with const
 ```
@@ -41,7 +43,6 @@ The following are incorrect:
 ```c#
 string fruit = "Lychee";
 List<Fruit> fruits = new List<Fruit>();
-FruitFlavor flavor = fruit.GetFlavor();
 ```
 
 #### Use C# type keywords in favor of .NET type names
